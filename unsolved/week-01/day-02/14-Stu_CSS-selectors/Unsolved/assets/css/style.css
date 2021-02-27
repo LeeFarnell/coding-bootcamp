@@ -1,9 +1,11 @@
 /* TODO: Label selector type */
+/* * is a universal selector. This is used to select all elements. */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
 /* TODO: Label selector type */
+/* Body, Header, Footer and Figure are type selectors. These are used to select all elements that have the same node name */
 body {
   background-color: lemonchiffon;
 }
@@ -23,11 +25,13 @@ figure {
 }
 
 /* TODO: Label selector type */
+/* . is a class selector. This will select the elements that share the same name as the .class */
 .highlighted-text {
   font-weight: bolder;
 }
 
 /* TODO: Label selector type */
+/* # is a ID selector. This will select the elements that share the same name as the #ID */
 #contact-section {
   background-color: #f0ead6;
 }
